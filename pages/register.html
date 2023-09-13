@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create | FunkoShop</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <picture>
+          <a href="../index.html"
+            ><img
+              src="../img/branding/logo_light_horizontal.svg"
+              alt="Isologotipo de la marca Funkoshop"
+          /></a>
+        </picture>
+        <ul>
+          <li><a href="./shop.html">VER TIENDA</a></li>
+          <li><a href="./admin.html">ADMIN</a></li>
+          <li><a href="">SALIR</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>CREA TU CUENTA</h1>
+      <p>Completa el formulario para ser parte del mundo de los Funkos</p>
+      <form action="" method="post" enctype="application/x-www-form-urlencoded">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" placeholder="John">
+        </div>  
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" placeholder="Doe">
+        </div>  
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="johndoe@correo.com" required>
+        </div>
+        <div>
+          <label for="password">Contraseña:</label>
+          <input type="password" name="password" id="password" placeholder="•••••••••" required>
+        </div>
+        <div>
+          <label for="repeat_password">Repita Contraseña:</label>
+          <input type="password" name="repeat_password" id="repeat_password" placeholder="•••••••••" required>
+        </div>
+      </form>
+      <div>
+        <button type="submit" id="registrar">Registrar</button>
+        <input type="checkbox" name="terminos_condiciones" id="terminos_condiciones">
+        <label for="terminos_condiciones">Acepto Términos y Condiciones</label>
+      </div>
+    </main>
+
+    <footer>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li><a href="./register.html">REGISTRARSE</a></li>
+            <li><a href="./login.html">INGRESAR</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+          </ul>
+          <picture>
+            <a href="../index.html"
+              ><img
+                src="../img/branding/isotype.svg"
+                alt="Isologotipo de la marca Funkoshop"
+            /></a>
+          </picture>
+        </nav>
+      </section>
+      <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>
+  </body>
+</html>
