@@ -3,24 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | FunkoShop</title>
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Home | FunkoShop</title>
   </head>
   <body>
+    
     <header>
-      <nav>
-        <picture>
-          <a href="index.html"><img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop"></a>
+     
+      <nav class="navbar">
+        <picture class="navbar_logo">
+          <a href="index.html">
+            <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop">
+          </a>
         </picture>
-        <ul>
-          <li><a href="./pages/shop.html">SHOP</a></li>
-          <li><a href="./pages/contacto.html">CONTACTO</a></li>
-          <li><a href="./pages/login.html">LOGIN</a></li>
-          <li><a href=""><img src="./img/icons/cart-icon.svg" alt="ícono de carrito"></a></li>
+        
+        <ul class="navbar_menu">
+          
+          <li class="navbar_item">
+            <a  class="navbar_link" href="./pages/shop.html">SHOP</a>
+          </li>
+
+          <li class="navbar_item">
+            <a class="navbar_link" href="./pages/contacto.html">CONTACTO</a>
+          </li>
+
+          <li class="navbar_item">
+            <a class="navbar_link" href="./pages/login.html">LOGIN</a>
+          </li>
+
+          <li class="navbar_item">
+            <a class="navbar_cart" href=""> <img src="./img/icons/cart-icon.svg" alt="ícono de carrito"></a>
+          </li>
+
         </ul>
       </nav>
+
     </header>
 
-    <main>
+    <main class="container">
       <section>
         <article>
           <h3>Nuevos Ingresos</h3>
