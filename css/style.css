@@ -546,3 +546,94 @@ header {
   color: #ff3333;
 }
 
+/* ADMIN */ 
+
+table {
+  text-align: left;
+ width: 100%;
+ padding: 0%;
+ padding-left: 1em;
+ 
+}
+
+th , td {
+  padding: 0.5em;
+}
+
+
+
+.admin_main {
+ 
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+}
+
+.form {
+     
+      display: flex;  
+      
+    }
+
+.input_icon_search {
+
+   width: 50px;
+  padding-right: 1em;
+ }
+
+ .input_admin {
+     
+  border: 2px solid var(--dark-solid);
+  border-radius: 6px ;
+  width:500px ;
+  height: 40px;
+  padding-left: 1em;
+  font-family: var(--base-font);
+ 
+
+}
+
+.section_productos{
+   display: flex;
+  margin: 1.5em auto;
+ justify-content: space-between;
+ font-size: var(--font-small);
+ font-family: var(--alternative-font);
+ padding-right: 2em;
+ gap: 2em;
+}
+
+.section_table {
+  margin: 1.5em auto;
+
+}
+
+
+
+.table {
+ 
+ font-family: var(--base-font);
+ 
+  }
+
+.table-title {
+  font-size: var(--font-medium);
+}
+
+.table_body  {
+ font-size: var(--font-medium)
+ 
+} 
+
+.icons_img {
+  width: auto;
+}
+
+.agregar {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+
+
