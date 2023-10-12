@@ -26,8 +26,6 @@ cliente.
 | **Veronica Cynthia Lee** |      [88alwaysmile88](https://github.com/88alwaysmile88)      |
 | **Carlos Viloria**       |           [CarlosJR2](https://github.com/CarlosJR2)           |
 | **Fausto Centurion**     |             [Fgc1997](https://github.com/Fgc1997)             |
-| **Axel Varone**          |               [Ozz87](https://github.com/Ozz87)               |
-| **Tomas Vainstein**      |      [tomasvainstein](https://github.com/tomasvainstein)      |
 | **Sebastian Salvadores** | [SebastianSalvadores](https://github.com/SebastianSalvadores) |
 
 ## Links
